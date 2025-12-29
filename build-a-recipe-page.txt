@@ -1,0 +1,34 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Receita de Macarrao</title>
+    </head>
+    <body>
+      <h1>Macarrão Alho e Óleo</h1>
+      <p>Introdução</p>
+      <h2>Ingredients</h2>
+      <ul>
+        <li>Ing1</li>
+        <li>Ing2</li>
+        <li>Ing3</li>
+        <li>Ing4</li>
+      </ul>
+      <h2>Instructions</h2>
+      <ol>
+        <li>Int1</li>
+        <li>Int2</li>
+        <li>Int3</li>
+        <li>Int4</li>
+      </ol>
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="Imagem de receita">
+    </body>
+
+
+</html>
+
+** end of index.html **
+
