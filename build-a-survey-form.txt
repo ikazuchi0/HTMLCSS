@@ -1,0 +1,50 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" required placeholder="Enter your name">
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" required placeholder="Enter your email">
+      <label for="number" id="number-label">Number:</label>
+      <input type="number" id="number" min="1" max="100" placeholder="Enter a number">
+      <label for="dropdown">Choose an option:</label>
+      <select id="dropdown" name="options">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+      <p>Select your option:</p>
+  <input type="radio" id="option1" name="choice" value="1" checked>
+  <label for="option1">Option One</label><br>
+  
+  <input type="radio" id="option2" name="choice" value="2">
+  <label for="option2">Option Two</label>
+       <p>Select your favorite fruits:</p>
+       <input type="checkbox" id="fruit1" name="fruit" value="apple">
+       <label for="fruit1"> Apple</label><br>
+
+       <input type="checkbox" id="fruit2" name="fruit" value="banana">
+       <label for="fruit2"> Banana</label><br>
+
+       <input type="checkbox" id="fruit3" name="fruit" value="cherry">
+       <label for="fruit3"> Cherry</label><br>
+      <label for="additional-comments">Additional Comments:</label><br>
+      <textarea id="additional-comments" name="comments" rows="4" cols="50"></textarea><br>
+
+    <input type="submit" id="submit" value="Submit">
+    </form>
+    
+  </body>
+</html>
+
+** end of index.html **
+
